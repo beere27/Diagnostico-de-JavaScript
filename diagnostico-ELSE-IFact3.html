@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    function asignartemperatura(temperatura) {
+        if (temperatura >= 0 && temperatura <= 0) {
+                return "Frio";
+        } else if (temperatura >= 0<15 && temperatura < 15) {
+                return "Fresco";
+        } else if (temperatura >= 16>=25 && temperatura < 25) {
+                return "Templado";
+        } else if (temperatura >= 26 && temperatura < 40) {
+                return "Caliente";
+        } else {
+                return "Fresco";
+         }
+        }
+    let temperatura = parseFloat(prompt("Ingrese los grados correspondientes:"));
+    let calificacion = asignartemperatura(temperatura);
+    alert("La Temperatura es de: " + calificacion);
+</script>
+</body>
+</html>
